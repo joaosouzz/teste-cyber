@@ -19,7 +19,7 @@ header {
 }
 header h1{
     padding-top: 10px;
-    font-size: 3em;
+    font-size: 100%;
     text-align: center;
    
     text-shadow: 1px 1px 5px pink;
