@@ -19,9 +19,10 @@ header {
 }
 header h1{
     padding-top: 10px;
-    font-size: 100%;
+    font-size: 3em;
     text-align: center;
-   
+    font-weight: 600;
+   max-height: 8vh;
     text-shadow: 1px 1px 5px pink;
 }
 nav {
@@ -64,6 +65,7 @@ main h1 {
     background-image: linear-gradient(to left,#00FEB2, var(--color4));
     color: #000000;
     text-indent: 10px;
+    text-align: justify;
 }
 main h2{
     background-image: linear-gradient(to right, var(--color4), #00FEB2);
