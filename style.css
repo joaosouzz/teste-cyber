@@ -19,9 +19,8 @@ header {
 }
 header h1{
     padding-top: 10px;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-   max-height: 8vh;
     text-shadow: 1px 1px 5px pink;
 }
 nav {
