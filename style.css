@@ -1,0 +1,100 @@
+@charset "UFT-8";
+@font-face {
+    font-family: 'space' ;
+    src: url(font/Technos.otf);
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+:root {
+    --color1: #1B1A28;
+    --color2: #FE017A;
+    --color3: #098862;
+    --color4: #A600FE;
+    --color5: #FEE901;
+}
+header {
+    background-image: linear-gradient(to top, var(--color5), var(--color4));
+    font-family: 'Space';
+    min-height: 120px;
+    
+}
+header h1{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 5px pink;
+}
+nav {
+    padding-bottom: 20px;
+    background-color: #FEE901;
+}
+nav a {
+    background-color: #a500fe85;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.349);
+}
+nav a:hover {
+    padding: 15px;
+    transition-duration: .5s;
+    background-color: #FE017A;
+
+}
+body {
+    background-color: var(--color1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: #00FEB2;
+    color: black;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main h2{
+    background-image: linear-gradient(to right, var(--color4), #00FEB2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #cf84f7;
+
+}
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.gif {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+footer {
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: #6d0236;
+}
+.glow {
+    text-indent: 10px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
